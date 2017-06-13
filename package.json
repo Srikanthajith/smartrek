@@ -1,0 +1,22 @@
+{
+  "name": "aaa",
+  "version": "1.0.0",
+  "description": "Smartrek Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"dependencies": {
+	"express":"*",
+	"mongoose":"*",
+	"bcryptjs":"*",
+	"cors":"*",
+	"jsonwebtoken":"*",
+	"body-parser":"*",
+	"passport":"*",
+	"passport-jwt":"*"
+
+  },
+  "author": "Srikanth",
+  "license": "ISC"
+}
