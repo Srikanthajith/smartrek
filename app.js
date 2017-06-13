@@ -5,7 +5,6 @@ const cors =  require('cors');
 const passport = require('passport');
 const mongoose = require('mongoose');
 const config = require('./config/database');
-var favicon = require('serve-favicon')
 
 //Database connect
 mongoose.connect(config.database);
@@ -52,7 +51,7 @@ app.get('*', (req,res) => {
 	res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+
 
 //Start Server
 app.listen(port, () => {
